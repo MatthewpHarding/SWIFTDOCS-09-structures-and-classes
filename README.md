@@ -188,7 +188,7 @@ print("hd is still \(hd.width) pixels wide")
 ```
 When cinema was given the current value of hd, the values stored in hd were copied into the new cinema instance. The end result was two completely separate instances that contained the same numeric values. However, because they’re separate instances, setting the width of cinema to 2048 doesn’t affect the width stored in hd, as shown in the figure below:
 
-![Diagram](sharedStateStruct_2x.png)
+![Diagram](readme-images/sharedStateStruct_2x.png)
 The same behavior applies to enumerations:
 
 ```Swift
@@ -232,7 +232,7 @@ alsoTenEighty.frameRate = 30.0
 ```
 Because classes are reference types, tenEighty and alsoTenEighty actually both refer to the same VideoMode instance. Effectively, they’re just two different names for the same single instance, as shown in the figure below:
 
-![Diagram](sharedStateClass_2x.png)
+![Diagram](readme-images/sharedStateClass_2x.png)
 Checking the frameRate property of tenEighty shows that it correctly reports the new frame rate of 30.0 from the underlying VideoMode instance:
 
 ```Swift
