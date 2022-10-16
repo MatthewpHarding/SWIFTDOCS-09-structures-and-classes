@@ -35,7 +35,7 @@ Unlike other programming languages, Swift doesn’t require you to create separa
 
 ## Comparing Structures and Classes
 
-* Structures and classes in Swift have many things in common. Both can:
+Structures and classes in Swift have many things in common. Both can:
 
 * Define properties to store values
 
